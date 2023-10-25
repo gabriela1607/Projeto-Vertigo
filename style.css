@@ -6,7 +6,15 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
+/* 1rem = 16px */
+
 header{
     background-image: url(./img.png/bg-moblie.svg);
     background-size: cover;
+    height: 8.75rem;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
+
