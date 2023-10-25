@@ -11,7 +11,7 @@
 
 :root{
     --gray-800: #1e293b;
-    --gray-688: #475569;
+    --gray-600: #475569;
 }
 
 header{
@@ -30,10 +30,20 @@ main{
     padding-inline: 1.5rem ;
 }
 
+
+.descricao{
+    margin-bottom: 2.5rem;
+}
+
 .descricao h1{
 
     color:var(--gray-800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;  
+}
+
+.descricao p{
+    font-size: 0.8125rem; 
+    color: var(--gray-600)
 }
 
