@@ -8,7 +8,6 @@
 
 /* 1rem = 16px */
 
-
 :root{
     --gray-800: #1e293b;
     --gray-600: #475569;
@@ -18,7 +17,6 @@
     --ligth-purple: #9F67FF;
     --white:#FFF;
 }
-
 header{
     background-image: url(./img.png/bg-moblie.svg);
     background-size: cover;
@@ -30,29 +28,21 @@ header{
 
    margin-bottom: 3.7rem;
 }
-
 main{
     padding-inline: 1.5rem ;
 }
-
-
 .descricao{
     margin-bottom: 2.5rem;
 }
-
 .descricao h1{
-
     color:var(--gray-800);
     margin-bottom: 1rem;
     font-size: 1.5625rem;  
 }
-
 .descricao p{
     font-size: 0.8125rem; 
     color: var(--gray-600)
 }
-
-
 .input-box{
     display: flex;
     flex-direction: column;
@@ -60,22 +50,17 @@ main{
     margin-bottom: 1rem;
    
 }
-
 .input-box div{
     display: flex;
     justify-content: space-between;
     align-items: center;
    
 }
-
-
 .login label{
     font-size: 0.875rem;
     color: var(--gray-800);
     font-weight: 600;
 }
-
-
 .login input{
     padding: 1rem 0.35rem;
     border: 1px solid var(--gray-200);
@@ -83,28 +68,22 @@ main{
     color: var(--gray-800);
     
 }
-
 .login input::placeholder{
     color: var(--gray-400);
 }
-
 .login input:hover,
 .login input:focus{
     outline: 1px solid var(--purple);
 }
-
 .login a{
     color: var(--purple);
     text-decoration: none;
     font-size: 0.875rem;
     font-weight: 600;
 }
-
 .login a:hover{
     text-decoration: underline;
 }
-
-
 .login button{
     margin-top: 1rem;
     margin-bottom:2rem ;
@@ -122,47 +101,40 @@ main{
     transition: 0.3s;
     cursor: pointer;
 }
-
 .login > p{
     color: var(--gray-600); 
 }
-
 .login > p a{
     font-weight:700;
     font-size: 1rem;
 }
-
 .bg-desktop{
     display: none;
-}
 
+}
 
 
 @media(min-width: 1000px){
     body{
         display: flex;
         height: 100vh;
-        border: 1px solid red;
+        
     }
     header{
         background: none; 
         justify-content: flex-start;
         margin: 2.5rem 7rem 7rem;
-
         height: fit-content;
         
         
     }
-
     header img{
         width: 10rem;
     }
-
     main{
        margin-inline: 7rem;
         max-width: 24rem; 
         padding: 0;
-
     }
     
     .conteudo{
@@ -187,9 +159,7 @@ main{
         font-size: 2.25rem;
 
     }
-
     .descricao p{
         font-size: 1rem;
     }
-
 }
